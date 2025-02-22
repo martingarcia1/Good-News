@@ -10,6 +10,7 @@ body {
 }
 
 nav ul {
+    display: flex;
     justify-content: space-around;
     margin-top: 0px;
     padding: 20px;
