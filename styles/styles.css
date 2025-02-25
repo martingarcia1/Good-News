@@ -18,11 +18,22 @@ nav ul {
     list-style: none;
 }
 
+nav ul li a{
+    list-style: none;
+}
+
+.bg-nav-propio{
+    background: #1313a9;;
+}
 .footer {
+    width: 100%;
+}
+
+.footer-test{
     display: block;
     width: 100%;
     height: 90px;
-    margin-top: 0;
+    margin-top: 290px;
     margin-bottom: 1rem;
     padding: 0.5rem;
     border: 1px solid;
@@ -78,19 +89,20 @@ nav ul {
 
 .articulo-2 {
     position: relative;
-    margin-left: 500px;
+    margin-left: 480px;
     border: 3px solid white;
-    bottom: 310px;
+    bottom: 360px;
     width: 470px;
 }
 
 
 .articulo-3 {
     position: relative;
-    margin-left: 700px;
+    margin: 20px 30px;
+    margin-left: 980px;
     border: 2px solid white;
     width: 460px;
-    bottom: 300px;
+    bottom: 780px;
 }
 
 
@@ -116,7 +128,7 @@ nav ul {
 
 /* Estilos para el archivo testimonios */
 
-.grid-conteiner{
+.conteiner-fluid{
     display: grid;
     grid-template-columns: 350px 250px 250px;
     grid-template-rows: 350px 350px 350px;
