@@ -70,6 +70,14 @@ Estilo avanzado de la web (CSS) - Estilo de diseño web Hay una paleta de colore
 
 Estilo avanzado de la web (CSS) - Prolijidad del código Prolijidad del código: ¿El uso de tabulaciones es correcto? ¿Hace buen uso de los selectores para evitar repetir código.
 
+
+*Entrega preentrgable 3*
+-proyecto 100% responsive
+-Todo migrado a sass con partials, mixins, extend, variables (maps)
+-NADA de selectores en styles.scss, solo imports
+-Animaciones, a mano (keyframes) o librería
+-Repo de GitHub (mismo que la entrega pasada)
+
 Estilo avanzado de la web (CSS) - Entendimiento del CSS Entendimiento del CSS: Expande sobre elementos que ya había creado con clases que los modifican. Genera estilos que son fáciles de cambiar o transformar para diferentes tamaños de dispositivo.
 
 Repositorio en GitHub Utilización de Git: Realiza cambios pertinentes a un grupo de mejoras y las commitea. Genera branches en caso de tener que testear algo experimental y luego hace el merge a main. Utiliza .gitignore para no versionar los archivos o directorios que no son requeridos. Utilización de GitHub: Utiliza Github Pages para su trabajo.
