@@ -4,8 +4,8 @@
 }
 
 body {
-    background-color: #07071E;
-    color: white;
+    background-color: #4f78a9;
+    color: black;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -23,7 +23,7 @@ nav ul li a{
 }
 
 .bg-nav-propio{
-    background: #1313a9;;
+    background: #091b28;;
 }
 .footer {
     width: 100%;
@@ -46,6 +46,10 @@ nav ul li a{
     left: 650px;
     height: 450px;
     max-width: 50%;
+}
+
+.figura-1{
+    border: 2px solid white;
 }
 
 /* parrafo del archivo index */
@@ -71,6 +75,7 @@ nav ul li a{
     width: 450px;
     /* flex-wrap: wrap; */
     border: 3px solid white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .articulo-1 h2{
