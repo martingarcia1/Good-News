@@ -9,11 +9,19 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.bg-nav-propio {
-  background-color: aqua;
+.navbar {
+  width: 850px;
+  margin-left: 300px;
+  bottom: 45px;
+}
+
+.logo-img {
+  width: 50px;
 }
 
 .cruz {
+  background-color: #111927;
+  background-image: radial-gradient(at 47% 33%, hsl(216, 78%, 58%) 0, transparent 59%), radial-gradient(at 82% 65%, hsl(221.48, 81%, 34%) 0, transparent 55%);
   position: relative;
   left: 650px;
   height: 450px;
