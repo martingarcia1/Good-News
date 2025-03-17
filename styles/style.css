@@ -3,4 +3,21 @@
   padding: 0;
 }
 
+body {
+  background-color: #000;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.bg-nav-propio {
+  background-color: aqua;
+}
+
+.cruz {
+  position: relative;
+  left: 650px;
+  height: 450px;
+  max-width: 50%;
+}
+
 /*# sourceMappingURL=style.css.map */

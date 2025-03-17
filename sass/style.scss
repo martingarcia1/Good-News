@@ -5,6 +5,9 @@
 // utilities
 @import 'partials/utilities/variables';
 @import 'partials/utilities/maps';
-@import 'partials/utilities/mixins'
+@import 'partials/utilities/mixins';
 
 // componentes
+@import 'partials/components/principal';
+@import 'partials/components/navbar';
+@import 'partials/components/imagenes';
