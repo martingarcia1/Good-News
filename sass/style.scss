@@ -1,7 +1,10 @@
+// base
+@import 'partials/base/reset';
+@import 'partials/base/tipografia';
 
-// Maps
-$colors :(
-    pure-white: #FFFF,
-    pure-black: #000000,
-    blue: #09b1ac
-);
+// utilities
+@import 'partials/utilities/variables';
+@import 'partials/utilities/maps';
+@import 'partials/utilities/mixins'
+
+// componentes
