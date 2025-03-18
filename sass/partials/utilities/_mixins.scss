@@ -1,3 +1,4 @@
+// border-radius para la 1ra imagen del index
 @mixin border-radius($radius){
     border-radius: $radius;
 }
@@ -6,10 +7,21 @@
     @include border-radius(30px)
 }
 
-@mixin h1($h1_index){
+// h1 para el index
+@mixin h1($h1_index, $h1, $colores_h){
     font-size: $h1_index;
+    font-weight: $h1;
+    color: $colores_h;
 }
 
 .h1-index{
-    @include h1(40px)
+    @include h1(48px, bold,#09b1ac)
+}
+
+@mixin font-size($parrafo-font-size){
+    font-size: $parrafo-font-size;
+}
+
+.parrafo-principal{
+    @include font-size(18px)
 }
