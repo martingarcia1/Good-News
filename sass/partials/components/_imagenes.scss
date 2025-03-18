@@ -11,3 +11,37 @@
     height: 450px;
     max-width: 50%;
 }
+
+.resurreccion{
+    position: relative;
+    left: auto;
+    height: 200px;
+}
+
+.vuelta{
+    position: relative;
+    left: auto;
+    height: 200px;
+}
+
+.amor{
+    position: relative;
+    left: auto;
+    height: 200px;
+}
+
+.grid-area{
+    width: 100%;
+    height: auto;
+    transition: filter 0.3s ease-in-out;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease-in-out;
+    &:hover{
+        filter: grayscale(0%);
+    }
+}

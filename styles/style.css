@@ -31,6 +31,21 @@ body {
   text-align: left;
 }
 
+.grid-conteiner {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.grid-area {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
 .navbar {
   width: 850px;
   margin-left: 300px;
@@ -48,6 +63,40 @@ body {
   left: 650px;
   height: 450px;
   max-width: 50%;
+}
+
+.resurreccion {
+  position: relative;
+  left: auto;
+  height: 200px;
+}
+
+.vuelta {
+  position: relative;
+  left: auto;
+  height: 200px;
+}
+
+.amor {
+  position: relative;
+  left: auto;
+  height: 200px;
+}
+
+.grid-area {
+  width: 100%;
+  height: auto;
+  transition: filter 0.3s ease-in-out;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease-in-out;
+}
+img:hover {
+  filter: grayscale(0%);
 }
 
 /*# sourceMappingURL=style.css.map */

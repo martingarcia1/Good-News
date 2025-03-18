@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #4f78a9;
+                      #000
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0.1rem;
+    padding: 10px;
+
+    list-style: none;
+}
+
+nav ul li a{
+    list-style: none;
+}
+
+.bg-nav-propio{
+    background: #091b28;;
+}
+.footer {
+    width: 100%;
+}
+
+.footer-test{
+    display: block;
+    width: 100%;
+    height: 90px;
+    margin-top: 290px;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid;
+    font-size: 15px;
+}
+
+/* estilos para las imagenes */
+#cruz {
+    position: relative;
+    left: 650px;
+    height: 450px;
+    max-width: 50%;
+}
+
+.figura-1{
+    border: 2px solid white;
+}
+
+/* parrafo del archivo index */
+.parrafo {
+    position: relative;
+    bottom: 400px;
+    max-width: 40%;
+    text-align: left;
+    font-size: 20px;
+}
+
+.articulo-principal {
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+}
+
+.articulo-1 {
+    position: relative;
+    margin: 10px 20px;
+    margin-left: 10px;
+    width: 450px;
+    /* flex-wrap: wrap; */
+    border: 3px solid white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.articulo-1 h2{
+    font-size: 16px;
+}
+
+.articulo-1 img{
+    width: 80%;
+    padding: 20px;
+    
+}
+
+.articulo-1 p{
+    margin: 10px 2px;
+}
+
+.articulo-2 {
+    position: relative;
+    margin-left: 480px;
+    border: 3px solid white;
+    bottom: 360px;
+    width: 470px;
+}
+
+
+.articulo-3 {
+    position: relative;
+    margin: 20px 30px;
+    margin-left: 980px;
+    border: 2px solid white;
+    width: 460px;
+    bottom: 780px;
+}
+
+
+
+#resurreccion {
+    position: relative;
+    left: 100px;
+    height: 200px;
+}
+
+#vuelta {
+    position: relative;
+    left: 100px;
+    height: 200px;
+
+}
+
+#amor {
+    position: relative;
+    left: 100px;
+    height: 200px;
+}
+
+/* Estilos para el archivo testimonios */
+
+.conteiner-fluid{
+    display: grid;
+    grid-template-columns: 350px 250px 250px;
+    grid-template-rows: 350px 350px 350px;
+    justify-content: space-around;
+}
+
+.grid-area p {
+   
+    font-size: 15px;
+
+}
+
+/* Media Queries */
+
+@media(max-width:430px){
+    .grid-conteiner{
+        grid-template-columns: 150px 150px 150px;
+        /* grid-template-rows: 100px 100px 100px; */
+
+        
+    }
+    .grid-conteiner p{
+        font-size: 13px;
+    } 
+}
+
+/* estilos para el archivo historia */
+
+a {
+    display: inline-block;
+    list-style: none;
+    border: 4px solid;
+    border-radius: 8px;
+    margin-left: 8px;
+}
+
+.formulario {
+    text-align: center;
+}
+
+.formulario label {
+    display: block;
+    margin-top: 20px;
+}
+
+.formulario input {
+    margin-left: 200px;
+}
+
+.formulario .asunto {
+    margin-left: 200px;
+}
+
+#mensaje {
+    margin-left: 800px;
+    margin-bottom: 50px;
+}
+
+#file {
+    margin-top: 80px;
+    margin-left: 80px;
+}
+
+button {
+    margin-top: 90px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
