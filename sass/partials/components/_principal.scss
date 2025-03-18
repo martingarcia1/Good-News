@@ -32,4 +32,38 @@ body{
     position: relative;
     overflow: hidden;
     cursor: pointer;
+
+    &:hover .info-hover{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.info-hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    padding: 15px;
+    text-align: center;
+    h2 {
+        color: #00A99D;
+        font-size: 20px;
+        margin-bottom: 10px;
+        p {
+            font-size: 14px;
+            max-width: 90%;
+        } 
+    }
+           
 }
