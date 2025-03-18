@@ -8,11 +8,14 @@
   bottom: 400px;
   max-width: 40%;
   text-align: left;
-  font-size: 20px;
 }
 
 .cruz {
   border-radius: 30px;
+}
+
+.h1-index {
+  font-size: 40px;
 }
 
 body {

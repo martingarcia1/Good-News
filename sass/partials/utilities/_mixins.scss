@@ -5,3 +5,11 @@
 .cruz{
     @include border-radius(30px)
 }
+
+@mixin h1($h1_index){
+    font-size: $h1_index;
+}
+
+.h1-index{
+    @include h1(40px)
+}
