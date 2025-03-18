@@ -164,6 +164,118 @@ body {
   line-height: 1.6;
 }
 
+.musica-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 50px 20px;
+  text-align: center;
+}
+.musica-container h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #333;
+}
+.musica-container .article {
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 30px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+.musica-container .article:hover {
+  transform: scale(1.02);
+}
+.musica-container .article h2 {
+  font-size: 2rem;
+  color: #555;
+  margin-bottom: 15px;
+}
+.musica-container .article strong {
+  font-size: 1.2rem;
+  color: #444;
+  display: block;
+  margin-bottom: 10px;
+}
+.musica-container .article .info-texto {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+.musica-container .article iframe {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.contacto-conteiner {
+  max-width: 800px;
+  margin: auto;
+  padding: 50px 20px;
+  text-align: center;
+}
+.contacto-conteiner h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #333;
+}
+.contacto-conteiner .formulario {
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.contacto-conteiner .formulario label {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #555;
+  text-align: left;
+}
+.contacto-conteiner .formulario input,
+.contacto-conteiner .formulario select,
+.contacto-conteiner .formulario textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: 0.3s ease;
+}
+.contacto-conteiner .formulario input:focus,
+.contacto-conteiner .formulario select:focus,
+.contacto-conteiner .formulario textarea:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+.contacto-conteiner .formulario textarea {
+  resize: none;
+  height: 150px;
+}
+.contacto-conteiner .formulario .confirm-button, .contacto-conteiner .formulario .cancel-button {
+  background: #599a53;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.contacto-conteiner .formulario .confirm-button:hover, .contacto-conteiner .formulario .cancel-button:hover {
+  background: #0056b3;
+}
+.contacto-conteiner .formulario .cancel-button {
+  background: #e44646;
+}
+
 .navbar {
   width: 850px;
   margin-left: 300px;
