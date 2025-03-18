@@ -1,1 +1,79 @@
 // este componente contiene toda la estilizacion para el html de historias
+
+
+// .grid-conteiner-historia{
+//     display: grid;
+//     grid-template-columns: repeat(2,1fr);
+//     gap: 25px;
+//     padding: 100px;
+//     max-width: 1500px;
+//     margin: auto;
+// }
+
+// .grid-area-historia{
+//     position: relative;
+//     overflow: hidden;
+//     cursor: pointer;
+
+//     &:hover .info-hover{
+//         opacity: 1;
+//         transform: translateY(0);
+//     }
+// }
+
+.grid-conteiner-historia {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 50px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.grid-area-historia {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    background: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+
+    &:hover {
+        transform: scale(1.03);
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+    }
+
+    figure {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+        .books {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+    }
+
+    p {
+        font-size: 1rem;
+        line-height: 1.6;
+        text-align: justify;
+        margin-bottom: 10px;
+        color: $colores_p;
+    }
+
+    a {
+        color: #007bff;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

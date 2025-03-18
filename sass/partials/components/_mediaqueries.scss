@@ -1,0 +1,34 @@
+// mobile para la pag de historia
+@media (max-width: 768px) {
+    .grid-conteiner-historia {
+        padding: 30px;
+    }
+    .grid-area-historia {
+        padding: 15px;
+        h2 {
+            font-size: 1.5rem;
+        }
+        p {
+            font-size: 0.95rem;
+        }
+    }
+}
+
+// mobile para la pag testimonios
+@media (max-width: 768px) {
+    .testimonios-container {
+        padding: 30px 10px;
+    }
+
+    .testimonio {
+        padding: 15px;
+
+        h4 {
+            font-size: 1.2rem;
+        }
+
+        p {
+            font-size: 0.95rem;
+        }
+    }
+}

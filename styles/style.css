@@ -78,6 +78,92 @@ body {
   max-width: 90%;
 }
 
+.grid-conteiner-historia {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 50px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.grid-area-historia {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+.grid-area-historia:hover {
+  transform: scale(1.03);
+}
+.grid-area-historia h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+.grid-area-historia figure {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.grid-area-historia figure .books {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+.grid-area-historia p {
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: justify;
+  margin-bottom: 10px;
+  color: #000;
+}
+.grid-area-historia a {
+  color: #007bff;
+  text-decoration: none;
+}
+.grid-area-historia a:hover {
+  text-decoration: underline;
+}
+
+.testimonios-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 50px 20px;
+  text-align: center;
+}
+.testimonios-container h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #09b1ac;
+}
+.testimonios-container .testimonio {
+  background: #8391a1;
+  color: #000;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+.testimonios-container .testimonio:hover {
+  transform: scale(1.03);
+}
+.testimonios-container .testimonio h4 {
+  font-size: 1.5rem;
+  color: #000;
+  margin-bottom: 10px;
+}
+.testimonios-container .testimonio p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
 .navbar {
   width: 850px;
   margin-left: 300px;
@@ -131,6 +217,35 @@ body {
 }
 .imgs:hover {
   filter: grayscale(0%);
+}
+
+@media (max-width: 768px) {
+  .grid-conteiner-historia {
+    padding: 30px;
+  }
+  .grid-area-historia {
+    padding: 15px;
+  }
+  .grid-area-historia h2 {
+    font-size: 1.5rem;
+  }
+  .grid-area-historia p {
+    font-size: 0.95rem;
+  }
+}
+@media (max-width: 768px) {
+  .testimonios-container {
+    padding: 30px 10px;
+  }
+  .testimonio {
+    padding: 15px;
+  }
+  .testimonio h4 {
+    font-size: 1.2rem;
+  }
+  .testimonio p {
+    font-size: 0.95rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,1 +1,40 @@
 // este componente es para la estilizacion del html de testimonios
+
+.testimonios-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px 20px;
+    text-align: center;
+
+    h1 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 30px;
+        color: $colores_h;
+    }
+
+    .testimonio {
+        background: #8391a1;
+        color: $colores_p;
+        border-radius: 10px;
+        padding: 20px;
+        margin-bottom: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+
+        &:hover {
+            transform: scale(1.03);
+        }
+
+        h4 {
+            font-size: 1.5rem;
+            color: $colores_p;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+    }
+}
