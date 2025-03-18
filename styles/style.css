@@ -3,6 +3,18 @@
   padding: 0;
 }
 
+.parrafo-principal {
+  position: relative;
+  bottom: 400px;
+  max-width: 40%;
+  text-align: left;
+  font-size: 20px;
+}
+
+.cruz {
+  border-radius: 30px;
+}
+
 body {
   background-color: #000;
   background-image: radial-gradient(at 47% 33%, hsl(216, 78%, 58%) 0, transparent 59%), radial-gradient(at 82% 65%, hsl(221.48, 81%, 34%) 0, transparent 55%);
@@ -23,7 +35,6 @@ body {
 
 .cruz {
   background-color: #111927;
-  border-radius: 20px;
   position: relative;
   left: 650px;
   height: 450px;

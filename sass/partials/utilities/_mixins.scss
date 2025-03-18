@@ -1,0 +1,7 @@
+@mixin border-radius($radius){
+    border-radius: $radius;
+}
+
+.cruz{
+    @include border-radius(30px)
+}
