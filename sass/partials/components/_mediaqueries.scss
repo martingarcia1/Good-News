@@ -1,5 +1,13 @@
 // mobile para la pag de historia
 @media (max-width: 768px) {
+    .grid-conteiner {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+@media (max-width: 768px) {
     .grid-conteiner-historia {
         padding: 30px;
     }

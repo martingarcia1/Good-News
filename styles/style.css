@@ -26,8 +26,8 @@ body {
 
 .parrafo-principal {
   position: relative;
-  bottom: 400px;
   max-width: 40%;
+  bottom: 400px;
   text-align: left;
 }
 
@@ -283,8 +283,8 @@ body {
 }
 
 .logo-img {
-  width: 60px;
-  border-radius: 30px;
+  width: 100px;
+  border-radius: 70px;
 }
 
 .cruz {
@@ -331,6 +331,11 @@ body {
   filter: grayscale(0%);
 }
 
+@media (max-width: 768px) {
+  .grid-conteiner {
+    grid-template-columns: 1fr;
+  }
+}
 @media (max-width: 768px) {
   .grid-conteiner-historia {
     padding: 30px;
